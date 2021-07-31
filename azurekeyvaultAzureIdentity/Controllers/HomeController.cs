@@ -12,6 +12,7 @@ using Azure.Identity;
 
 namespace azurekeyvaultAzureIdentity.Controllers
 {
+    //ref:https://docs.microsoft.com/en-us/azure/key-vault/general/tutorial-net-create-vault-azure-web-app
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
